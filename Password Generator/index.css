@@ -6,13 +6,11 @@ body {
 
 .main-container {
     background-color: #ECFDF5;
-    border: 5px solid blue;
     width: 550px;
     height: 550px;
-    margin-top: 64px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 64px auto;
     padding: 115px 52px;
+    
 }
 
 .main-title {
@@ -31,7 +29,6 @@ h1 {
 }
 
 h2 {
-    font-family: "Inter", sans-serif;
     font-weight: 400px;
     font-size: 20px;
     color: #6B7280;
@@ -47,11 +44,11 @@ button {
     background-color: #10B981;
     color: #ECFDF5;
     border-style: none;
-    width: 185px;
-    height: 40px;
+    width: 210px;
+    height: 50px;
     border-radius: 5px;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 16px;
     padding: 
 }
@@ -59,14 +56,15 @@ button {
 .password-container {
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
 }
 
 #password-one, #password-two {
-    width: 210px;
-    height: 39px;
+    width: 250px;
+    height: 50px;
     background-color: #273549;
-    color: #ECFDF5;
     border-radius: 8px;
+    margin: 0px;
 }
 
 #password-one:hover {
@@ -76,3 +74,17 @@ button {
 #password-two:hover {
     color: #10B981;
 }
+
+hr {
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    color: #ECFDF5;
+    font-size: 16px;
+}
+
+h2, button, p {
+    font-family: "Inter", sans-serif;
+} 
