@@ -59,20 +59,13 @@ button {
     margin-top: 40px;
 }
 
-#password-one, #password-two {
+#pass-container {
     width: 250px;
     height: 50px;
     background-color: #273549;
     border-radius: 8px;
     margin: 0px;
-}
-
-#password-one:hover {
-    color: #10B981;
-}
-
-#password-two:hover {
-    color: #10B981;
+    text-align: center;
 }
 
 hr {
@@ -80,9 +73,9 @@ hr {
 }
 
 p {
-    text-align: center;
-    color: #ECFDF5;
     font-size: 16px;
+    color: #10B981;
+    margin-top: 15px;
 }
 
 h2, button, p {
